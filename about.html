@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Page Transition Using BarbaJS & GSAP</title>
+        <link rel="stylesheet" href="css/main.css" />
+        <script
+      src="https://kit.fontawesome.com/d2f88e284f.js"
+      crossorigin="anonymous"
+    ></script>
+    </head>
+
+    <body data-barba="wrapper">
+        <div class="load-container">
+            <div class="loading-screen"></div>
+        </div>
+
+        <main data-barba="container" data-barba-namespace="about-section">
+            <div class="header">
+                <div class="notification-bar animate-this">
+                    <p>10% Off and Free US Shipping Code:
+                        <strong>SUPPORTSMALLBUSINESS</strong></p>
+                </div>
+                <div class="nav-bar animate-this">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.jpg" alt="" /></a>
+                        
+                      </div>
+                      <span></span>
+                      <div class="nav-menu">
+                        <ul>
+                          Men
+                        </ul>
+                        <ul>
+                          Women
+                        </ul>
+                        <ul>
+                          Explore
+                        </ul>
+                        <span></span>
+                        <ul>
+                          <i class="fas fa-search"></i>
+                        </ul>
+                        <ul>
+                          <i class="fas fa-user-alt"></i>
+                        </ul>
+                        <ul>
+                          <i class="fas fa-shopping-bag"></i>
+                        </ul>
+                      </div>
+                </div>
+                <div class="about animate-this">
+                    <h1>Apollo - The First Bag Designed for the New Era of Work</h1>
+                    <p>We wouldn’t be wasting my time or yours if we didn’t
+                        believe our new collection would benefit you.</p>
+                    
+                    
+                </div>
+                <div class="img animate-this">
+                    <img src="images/discover.webp" alt="">
+                     <img src="images/discover2.webp" alt="">
+                </div>
+            </div>
+        </main>
+    </body>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/@barba/core"></script>
+    <script
+        type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"
+    ></script>
+    <script src="main.js"></script>
+</html>
